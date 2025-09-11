@@ -12,8 +12,9 @@
   padding: 30px 0;
 }
 .header__image{
-  border-radius: 50%;
-  width: 250px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 .header__info {
   flex-grow: 1;
@@ -30,4 +31,150 @@
   justify-content: center;
   align-items: flex-end;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about {
+  margin-top: 20px;
+}
+
+.table {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.table__hobbies {
+  border: 1px solid #008000;
+  border-radius: 10px 0 0 10px;
+}
+
+.table__hobbies-title,
+.table__social-title {
+  border-bottom: 1px solid green;
+  text-align: center;
+  color: green;
+  padding: 5px 0;
+  font-weight: bold;
+}
+
+.table__social {
+  border: 1px solid #008000;
+  border-radius: 0 10px 10px 0;
+
+}
+
+.table__list {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.table__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.table__list-item:hover {
+  cursor: pointer;
+  color: green;
+}
+
+.table__list-item>a {
+  text-decoration: none;
+  color: black;
+}
+.tech{
+    background: green;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 5px 0;
+    margin-top: 50px;
+}
+
+.contact{
+    background: rgb(12, 101, 12);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 5px 0;
+    margin-top: 50px;
+}
+.container_works {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.tech__img {
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.container_content_work_item:hover {
+  box-shadow: 0 4px 20px 0 #5a9645;
+  cursor: pointer;
+  background: green;
+  transition: all 0.2s ease-in-out;
+  border-radius: 20%;
+}
+
+.txt_under {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.input_name {
+    border-radius: 5px;
+    width: 363px;
+    height: 35px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+}
+
+.input_phone {
+    width: 363px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    margin-left: 59;
+}
+
+.input_question {
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align:left;
+}
+
+.button {
+    direction: flex;
+    justify-content:center;
+    background: #95b806;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    margin-top: 14px;
+    width: 125px;
+    height: 33px;
+    position: 50%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    cursor: pointer;
 }
